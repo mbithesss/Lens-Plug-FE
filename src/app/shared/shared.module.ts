@@ -4,12 +4,14 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BaseLayoutComponent } from '../components/base-layout/base-layout.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     BaseLayoutComponent,
     NavbarComponent,
+    FooterComponent,
 
   ],
   imports: [
@@ -21,6 +23,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   exports: [
     BaseLayoutComponent,
     NavbarComponent,
+    FooterComponent,
 
   ]
 })
