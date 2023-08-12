@@ -1,0 +1,215 @@
+.containeR{
+    align-items: center;
+
+    justify-content: center;
+}
+
+.logO{
+    display: flex;
+
+    align-items: center;
+ 
+    justify-content: center;
+ 
+    margin-top: 3%;
+}
+
+.headeR{
+    font-weight: 600;
+
+    text-align: center;
+
+    font-family: Poppins;
+
+    text-align: center;
+
+    font-size: 40px;
+
+}
+
+.sub-headeR{
+
+    text-align: center;
+
+    color: grey;
+
+    font-family: 'poppins';
+
+    font-size: 20px;
+
+    padding-bottom: 10px;
+
+}
+
+.forM{
+
+   /* margin: 5% 30%; */
+
+}
+
+.form-fielD{
+
+    width: 460px;
+
+    height: 66px;
+
+    margin-left: 33%;
+
+    margin-top: 2%;
+
+    flex-shrink: 0;
+
+    padding-top: 30px;
+
+    border-radius: 15px;
+
+    background: #F7F9FC;
+
+    padding: 15px 13px;
+
+    border: none;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+input {
+    outline: none;
+
+    padding: 0 2%;
+
+    font-size: 16px;
+  
+  }
+
+.form-fielD::placeholder{
+
+    /* padding: 0 2%; */
+
+    font-size: 16px;
+
+}
+
+.termS{
+
+    display: flex;
+
+    text-align: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px 0;
+
+}
+
+.checkboX{
+
+    margin: 1% 0;
+
+}
+
+.terms-texT{
+   
+
+    color: #000;
+
+    font-family: Poppins;
+
+    font-size: 20px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: normal;
+
+}
+
+.terms-pagE{
+
+    color: #FF0000;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+}
+
+.buttoN{
+    padding-top: 30px;
+
+    display: flex;
+
+    width: 460px;
+
+    height: 66px;
+
+    margin-left: 33%;
+
+    justify-content: center;
+
+    text-align: center;
+
+    flex-direction: column;
+
+    border-radius: 15px;
+
+    padding: 15px 13px;
+
+    background: var(--neutral-2, #000);
+
+    color: #FFF;
+
+    font-family: Poppins;
+
+    font-size: 22px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: normal;
+
+    margin-top: 1%;
+
+    margin-bottom: 1%;
+}
+
+.buttoN:hover{
+
+    background: #FF0000;
+
+}
+
+.sign-texT{
+
+    color: #808080;
+
+    font-family: Poppins;
+
+    font-size: 20px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: normal;
+
+    text-align: center;
+
+    padding-bottom: 30px;
+}
+
+.sign-uP{
+
+    color: #FF0000;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+}
