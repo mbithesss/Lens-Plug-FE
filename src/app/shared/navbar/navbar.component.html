@@ -23,29 +23,29 @@
     
         <div class="autH">
     
-            <div class="flex-twO reD">
+            <a class="flex-twO reD" routerLink="/auth/signup">
     
                 <div class="icon-twO"><i class="fa-solid fa-user-plus"></i></div>
     
                 <div class="text-twO">Sign up</div>
     
-            </div>
+            </a>
     
-            <i class="flex-twO" routerLink="/login">
+            <a class="flex-twO blacK" routerLink="/auth/login">
     
                 <div class="icon-twO"><i class="fa-solid fa-right-to-bracket"></i></div>
     
                 <div class="text-twO">Log in </div>
     
-            </i>
-        </div>
+            </a>
+       </div>
     
     </div>
     
     <div class="middle-naV">
     
         <div class="logO">
-            <img src="/assets/lensplug 1.png">
+            <img src="/assets/images/lensplug 1.png">
         </div>
     
         <div class="searcH">
@@ -62,18 +62,18 @@
     
     <div class="main-naV">
         
-        <ul>
+        <ul class="nav">
         
             <select>
-                    <label for="actegories"> ALL CATEGORIES</label>
+                    <label for="categories"> ALL CATEGORIES</label>
                 <option> </option>
             </select>
     
-            <li>HOME</li>
+            <a class="active" routerLink="/home">HOME</a>
     
-            <li>SHOP</li>
+            <a class="active" routerLink="/shop/home">SHOP</a>
     
-            <li>ORDERS</li>
+            <a class="active" routerLink="" >ORDERS</a>
     
         </ul>
     

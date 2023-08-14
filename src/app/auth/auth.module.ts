@@ -18,7 +18,6 @@ import { AuthRoutingModule } from './auth-routing.module';
     CommonModule,
     SharedModule,
     AuthRoutingModule
-    
   ]
 })
 export class AuthModule { }

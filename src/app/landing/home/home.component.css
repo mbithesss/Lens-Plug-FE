@@ -140,7 +140,7 @@
 }
 
 .category-one{
-background-image: url(/assets/Rectangle\ 3855\ \(1\).png);
+background-image: url(/assets/images/Rectangle\ 3855\ \(1\).png);
 width: 300px;
 height: 310px;
 margin-left: 10px;
@@ -229,7 +229,7 @@ margin-left: 10px;
 }
 
 .filler{
-  background-image: url(/assets/auto\ 1.png);
+  background-image: url(/assets/images/auto\ 1.png);
   width: 1440px;
   height: 268px;
   margin-bottom: 50px;
@@ -248,14 +248,14 @@ margin-left: 10px;
 }
 
 .category-two{
-  background-image: url(/assets/Rectangle\ 3853.png);
+  background-image: url(/assets/images/Rectangle\ 3853.png);
   width: 290px;
   height: 300px;
   margin-left: 10px;
   }
 
   .category-three{
-    background-image: url(/assets/cool\ 1.png);
+    background-image: url(/assets/images/cool\ 1.png);
     width: 290px;
     height: 300px;
     margin-left: 10px;

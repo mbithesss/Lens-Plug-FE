@@ -335,7 +335,7 @@ input {
 
 }
 
-.sign-uP span{
+.sign-uP a{
 
     color: #FF0000;
 
@@ -348,4 +348,6 @@ input {
     font-weight: 400;
 
     line-height: normal;
+
+    text-decoration: none;
 }

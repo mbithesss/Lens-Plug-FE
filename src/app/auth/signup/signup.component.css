@@ -191,7 +191,7 @@ input {
 
     font-family: Poppins;
 
-    font-size: 20px;
+    font-size: 16px;
 
     font-style: normal;
 
@@ -201,7 +201,7 @@ input {
 
     text-align: center;
 
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .sign-uP{
@@ -210,6 +210,6 @@ input {
 
     text-decoration: none;
 
-    font-size: 16px;
+    font-size: 17px;
 
 }

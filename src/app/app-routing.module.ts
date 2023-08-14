@@ -16,6 +16,12 @@ const routes: Routes = [
     loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
   },
 
+  {
+    path: 'shop',
+    canActivate: [],
+    loadChildren: () => import('./shop/shop.module').then((m) => m.ShopModule),
+  },
+
 ];
 
 @NgModule({
