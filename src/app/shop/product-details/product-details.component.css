@@ -66,7 +66,6 @@
   
   .price{
     color: #F00;
-    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -112,7 +111,6 @@
     text-align: center;
     align-items: center;
     display: flex;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -129,15 +127,121 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.8px;
-
   }
 
   .icon{
     margin-right: -4%;
+  }
+
+  .flex2{
+    display: flex;
+    gap: 150px;
+  }
+
+  .description{
+    padding-top: 30px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* letter-spacing: 1.2px; */
+  }
+
+  .text2{
+    padding: 5px;
+  }
+
+  .text2{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.75px;
+  }
+
+  .btn{
+    width: 174px;
+    height: 51px;
+    background: #FF2626;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    border-radius: 0;
+    font-weight: 500;
+    line-height: normal;
+    /* letter-spacing: 0.75px; */
+    margin: 20px 0;
+  }
+
+  .popular{
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    padding-bottom: 20px;
+  }
+
+  .flex3{
+    display: flex;
+    gap:30px;
+    padding-bottom: 80px;
+  }
+
+  .flex3 a{
+    text-decoration: none;
+  }
+
+  .sample-two{
+    width: 292px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .sample-two img{
+
+    margin-left: 50px;
+
+  }
+
+  .label2{
+    color: #808080;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    padding-bottom: 7px;  
+  }
+
+  .text3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
   }
