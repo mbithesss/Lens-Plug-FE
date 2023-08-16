@@ -22,6 +22,12 @@ const routes: Routes = [
     loadChildren: () => import('./shop/shop.module').then((m) => m.ShopModule),
   },
 
+  {
+    path: 'cart',
+    canActivate: [],
+    loadChildren: () => import('./cart/cart.module').then((m) => m.CartModule),
+  },
+
 ];
 
 @NgModule({
