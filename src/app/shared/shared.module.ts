@@ -6,6 +6,7 @@ import { BaseLayoutComponent } from '../components/base-layout/base-layout.compo
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { Nav2Component } from './nav2/nav2.component';
+import { NextPageComponent } from './next-page/next-page.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { Nav2Component } from './nav2/nav2.component';
     NavbarComponent,
     FooterComponent,
     Nav2Component,
+    NextPageComponent,
 
   ],
   imports: [
@@ -27,6 +29,7 @@ import { Nav2Component } from './nav2/nav2.component';
     NavbarComponent,
     FooterComponent,
     Nav2Component,
+    NextPageComponent
 
   ]
 })
