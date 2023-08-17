@@ -1,0 +1,178 @@
+.container{
+    width: 100%;
+    margin: 2% 2%;
+}
+
+.results{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    padding-bottom: 15px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.sub-head{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+
+.flex{
+    display: flex;
+    gap: 30px;
+}
+
+.header{
+    width: 250px;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.cat-list{
+    list-style: none;
+    padding-top: 10px;
+    background: #FFF;
+    width: 250px;
+    height: 380px;
+    box-shadow: 0px 4px 4px 0px rgba(255, 38, 38, 0.60);
+}
+
+li{
+
+    padding: 10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+  
+}
+
+.cat-list .one{
+    color: #FF2626;
+}
+
+.brands{
+
+    padding-top: 50px;
+
+}
+
+.brand-list{
+    list-style: none;
+    padding-top: 10px;
+    background: #FFF;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 4px 4px 0px rgba(255, 38, 38, 0.60);
+}
+
+.items{
+    display: flex;
+    gap: 45px;
+}
+
+.sample-one{
+    width: 292px;
+    height: 300px;
+    text-decoration: none;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .sample-one img{
+    padding: 20px 90px;
+  
+  }
+
+  .label{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .text{
+    color: #000;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: normal;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  
+  
+  .price{
+    color: #F00;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    padding-left: 20px;
+  }
+
+  .items2{
+    display: flex;
+    gap: 45px;
+    padding-top: 30px;
+}
+
+.items1{
+    display: flex;
+    gap: 45px;
+}
+
+.items{
+
+    display: block;
+}
+
+.items3{
+    display: flex;
+    gap: 45px;
+    padding-top: 30px;
+}
+
+.items4{
+    display: flex;
+    gap: 45px;
+    padding-top: 30px;
+}
