@@ -28,6 +28,12 @@ const routes: Routes = [
     loadChildren: () => import('./cart/cart.module').then((m) => m.CartModule),
   },
 
+  {
+    path: 'search',
+    canActivate: [],
+    loadChildren: () => import('./search/search.module').then((m) => m.SearchModule),
+  },
+
 ];
 
 @NgModule({
