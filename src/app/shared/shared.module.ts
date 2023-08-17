@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BaseLayoutComponent } from '../components/base-layout/base-layout.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { Nav2Component } from './nav2/nav2.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
     BaseLayoutComponent,
     NavbarComponent,
     FooterComponent,
+    Nav2Component,
 
   ],
   imports: [
@@ -24,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     BaseLayoutComponent,
     NavbarComponent,
     FooterComponent,
+    Nav2Component,
 
   ]
 })
