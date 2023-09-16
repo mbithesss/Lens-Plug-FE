@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { Nav2Component } from './nav2/nav2.component';
 import { NextPageComponent } from './next-page/next-page.component';
+import { SlidableTabComponent } from './slidable-tab/slidable-tab.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { NextPageComponent } from './next-page/next-page.component';
     FooterComponent,
     Nav2Component,
     NextPageComponent,
+    SlidableTabComponent,
 
   ],
   imports: [
@@ -29,7 +31,8 @@ import { NextPageComponent } from './next-page/next-page.component';
     NavbarComponent,
     FooterComponent,
     Nav2Component,
-    NextPageComponent
+    NextPageComponent,
+    SlidableTabComponent
 
   ]
 })

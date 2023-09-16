@@ -1,0 +1,30 @@
+.uc-tabS ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    padding-left: 35%;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold; 
+    text-decoration: none;
+  }
+  .uc-tabS ul li a{
+    padding: 10px 10px;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+    border-bottom: 4px solid transparent;
+    min-width: 200px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .uc-tabS ul li a.activE{
+    background-color: transparent;
+    color: #000;
+    border-bottom: 4px solid #FF2626;
+    text-decoration: none;
+  }

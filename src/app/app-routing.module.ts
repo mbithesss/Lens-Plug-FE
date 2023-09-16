@@ -34,6 +34,12 @@ const routes: Routes = [
     loadChildren: () => import('./search/search.module').then((m) => m.SearchModule),
   },
 
+  {
+    path: 'orders',
+    canActivate: [],
+    loadChildren: () => import('./orders/orders.module').then((m) => m.OrdersModule),
+  },
+
 ];
 
 @NgModule({

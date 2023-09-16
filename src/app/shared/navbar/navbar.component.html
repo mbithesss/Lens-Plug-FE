@@ -64,21 +64,36 @@
         
         <ul class="nav">
         
-            <select>
-                    <label for="categories"> ALL CATEGORIES</label>
-                <option> </option>
-            </select>
+            <div class="dropdown">
+                <button class="dropdown-button">All Categories <i class="fa-solid fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <div class="row">
+                        <div class="column">
+                            <a href="#">Lighting</a>
+                            <a href="#">Cooling</a>
+                            <a href="#">Accessories</a>
+                        </div>
+                        <div class="column">
+                            <a href="#">Body Parts</a>
+                            <a href="#">Mirror</a>
+                            <a href="#">On Sale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
     
-            <a class="active" routerLink="/home">HOME</a>
-    
-            <a class="active" routerLink="/shop/home">SHOP</a>
-    
-            <a class="active" routerLink="" >ORDERS</a>
+<a class="active" routerLink="/home" [class.current-page]="isActive('/home')">HOME</a>
+<a class="active" routerLink="/shop" [class.current-page]="isActive('/shop')">SHOP</a>
+<a class="active" routerLink="/orders" [class.current-page]="isActive('/orders')">ORDERS</a>
+
     
         </ul>
     
     </div>
     
     </div>
+
+   
     
     

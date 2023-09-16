@@ -7,12 +7,14 @@
 
 /* CAROUSEL PART  */
 
+
 .exquisite{
   display: block;
 }
 
 .carousel{
   width: 100%;
+ 
 }
 
 .images, .text{

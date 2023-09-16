@@ -129,6 +129,8 @@
 }
 
 .pasS{
+    border: none;
+
     color: #808080;
 
     font-family: Poppins;
@@ -160,7 +162,7 @@ input {
 
     top: 0;
   
-    left: -1%;
+    left: 40%;
 }
 
 
