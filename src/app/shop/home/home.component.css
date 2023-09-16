@@ -73,8 +73,7 @@ li{
 }
 
 .sample-one{
-    width: 292px;
-    height: 300px;
+    width: 20%;
     text-decoration: none;
     border-radius: 15px;
     background: #FFF;
@@ -149,15 +148,4 @@ li{
     display: flex;
     gap: 45px;
     padding-top: 30px;
-}
-
-@media only screen and (max-width: 500px) {
-    .flex {
-        flex-direction: column;
-    }
-
-    .list, .items {
-        flex-basis: 100%;
-    }
-
 }

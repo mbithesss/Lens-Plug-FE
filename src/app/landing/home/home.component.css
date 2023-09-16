@@ -132,27 +132,16 @@
 
 /* END OF CAROUSEL PART  */
 
-.categories{
-
-  display: flex;
-
-  gap: 15px;
-
-  margin: 50px 0;
-}
 
 .category-one{
-background-image: url(/assets/images/Rectangle\ 3855\ \(1\).png);
-width: 300px;
-height: 310px;
-margin-left: 10px;
+  background-image: url(/assets/images/Rectangle\ 3855\ \(1\).png);
+  width: 100%;
+  margin-left: 10px;
 }
 
 .inner{
-
   background: rgba(0, 0, 0, 0.60);
-  width: 280px;
-  height: 300px;
+  width: 100%;
 }
 
 .header{
@@ -191,18 +180,15 @@ margin-left: 10px;
 }
 
 .sample-one{
-
-  width: 280px;
-  height: 306px;
+  padding: 20px 20px;
+  width: 100%;
   border-radius: 25px;
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(255, 0, 0, 0.30);
 }
 
 .sample-one img{
-
   padding: 20px 50px;
-
 }
 
 .text{
@@ -251,27 +237,21 @@ margin-left: 10px;
 
 .category-two{
   background-image: url(/assets/images/Rectangle\ 3853.png);
-  width: 290px;
-  height: 300px;
+  width: 100%;
   margin-left: 10px;
   }
 
   .category-three{
     background-image: url(/assets/images/cool\ 1.png);
-    width: 290px;
-    height: 300px;
+    width: 100%;
     margin-left: 10px;
   }
 
   .sample-one img{
-
     padding: 20px 70px;
-  
   }
 
   .brands{
-    display: flex;
-    gap: 30px;
     padding-left: 10px;
     padding-bottom: 50px;
   }
@@ -285,10 +265,13 @@ margin-left: 10px;
     line-height: normal;
     letter-spacing: 1.2px;
     padding: 30px 10px;
+    text-align: center;
   }
 
-  .brands .one{
-
+  .brands img{
     height: 58px;
     width: 200px;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 15px;
   }
