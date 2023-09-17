@@ -3,22 +3,13 @@
     margin: 2% 2%;
 }
 
-.flex{
-
-    display: flex;
-    gap: 30px;
-}
-
 .header{
-    width: 250px;
-    height: 60px;
     background: #000;
     color: #fff;
     justify-content: center;
     text-align: center;
     align-items: center;
     display: flex;
-    font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -30,22 +21,17 @@
     list-style: none;
     padding-top: 10px;
     background: #FFF;
-    width: 250px;
-    height: 380px;
     box-shadow: 0px 4px 4px 0px rgba(255, 38, 38, 0.60);
 }
 
 li{
-
     padding: 10px;
     color: #000;
     font-family: Poppins;
-    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 1px;
-  
 }
 
 .cat-list .one{
@@ -53,38 +39,28 @@ li{
 }
 
 .brands{
-
     padding-top: 50px;
-
 }
 
 .brand-list{
     list-style: none;
     padding-top: 10px;
     background: #FFF;
-    width: 250px;
-    height: 300px;
     box-shadow: 0px 4px 4px 0px rgba(255, 38, 38, 0.60);
 }
 
-.items{
-    display: flex;
-    gap: 45px;
-}
-
 .sample-one{
-    width: 20%;
+    padding: 20px 20px;
     text-decoration: none;
     border-radius: 15px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
-  
-  .sample-one img{
-    padding: 20px 90px;
-  
-  }
 
+  .sample-one:hover{
+    box-shadow: 0px 4px 4px 0px rgba(255, 38, 38, 0.60);
+  }
+  
   .label{
     color: rgba(0, 0, 0, 0.60);
     font-family: Poppins;
@@ -110,7 +86,6 @@ li{
     letter-spacing: 1px;
   }
   
-  
   .price{
     color: #F00;
     font-family: Poppins;
@@ -122,30 +97,14 @@ li{
     padding-left: 20px;
   }
 
-  .items2{
-    display: flex;
-    gap: 45px;
-    padding-top: 30px;
-}
-
-.items1{
-    display: flex;
-    gap: 45px;
-}
-
-.items{
-
-    display: block;
-}
-
-.items3{
-    display: flex;
-    gap: 45px;
-    padding-top: 30px;
-}
-
-.items4{
-    display: flex;
-    gap: 45px;
-    padding-top: 30px;
-}
+  @media only screen and (max-width: 500px) {
+    .cats{
+        margin:0 5%;
+    }
+    .products{
+        margin-top: 10%;
+    }
+    .sample-one{
+        margin:0 5%;
+    }
+  }
