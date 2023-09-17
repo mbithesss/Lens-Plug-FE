@@ -41,12 +41,6 @@
 
 }
 
-.forM{
-
-   /* margin: 5% 30%; */
-
-}
-
 .form-fielD{
 
     width: 460px;
@@ -83,8 +77,6 @@ input {
   }
 
 .form-fielD::placeholder{
-
-    /* padding: 0 2%; */
 
     font-size: 16px;
 
@@ -211,5 +203,62 @@ input {
     text-decoration: none;
 
     font-size: 17px;
+}
+
+@media screen and (max-width: 850px) {
+
+    
+.form-fielD{
+
+    margin-left: 22%;
+
+    margin-top: 3%;
 
 }
+
+.buttoN{
+    margin: 1% 22%;
+}
+}
+
+@media screen and (max-width: 500px) {
+    
+.headeR{
+    font-size: 32px;
+
+}
+
+.sub-headeR{
+
+    font-size: 16px;
+}
+
+.form-fielD{
+
+    margin-left: 8%;
+
+    width: 300px;
+
+    height: 55px;
+    
+    margin-top: 5%;
+}
+
+.buttoN{
+    margin-left: 8%;
+
+    width: 300px;
+
+    height: 55px;
+    
+    margin-top: 5%;
+}
+
+.sign-texT{
+    padding-top: 10px;
+}
+
+
+}
+
+    
