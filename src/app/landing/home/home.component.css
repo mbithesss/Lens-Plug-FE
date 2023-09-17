@@ -163,9 +163,7 @@ margin-left: 10px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.2px;
-  /* align-items: center; */
   text-align: center;
-  /* justify-content: center; */
   padding-top: 20px;
 }
 
@@ -292,3 +290,49 @@ margin-left: 10px;
     height: 58px;
     width: 200px;
   }
+
+
+@media screen and (min-width: 800px) {
+  .categories {
+    gap: 20px;
+  }
+  
+  .blocK{
+    display: block;
+  }
+  .filler {
+    margin-bottom: 100px; /* Adjust margin as needed */
+  }
+
+  .brands {
+    gap: 40px; /* Adjust the gap between brand logos */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .categories {
+    flex-direction: column; /* Stack categories vertically */
+    gap: 10px; /* Adjust the gap between category items */
+  }
+
+  .category-one,
+  .category-two,
+  .category-three {
+    width: 100%; /* Make categories full-width on phones */
+    margin-left: 0; /* Remove left margin on categories */
+  }
+
+  .sample-one {
+    width: 100%; /* Make sample items full-width on phones */
+  }
+
+  .filler {
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+
+  .brands {
+    flex-direction: column; /* Stack brand logos vertically */
+    gap: 20px; /* Adjust the gap between brand logos */
+    padding-left: 0; /* Remove left padding on brand logos */
+  }
+}
