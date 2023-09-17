@@ -4,6 +4,11 @@
 
     justify-content: center;
 
+   margin-top: 3%;
+
+    height: auto;
+
+    width: 100%;
 }
 
 .peer-logO{
@@ -14,7 +19,6 @@
 
    justify-content: center;
 
-   margin-top: 3%;
 
 }
 
@@ -353,3 +357,103 @@ input {
 
     text-decoration: none;
 }
+
+@media screen and (max-width: 850px) {
+    .email-autH{
+
+        padding-top: 40px;
+    
+        margin-left: 22%;
+    
+        padding: 25px 13px;
+    }
+
+    .pass-autH{
+
+        padding-top: 40px;
+    
+        margin-left: 22%;
+    
+        padding: 25px 13px;
+
+        margin-top: 2%;
+    }
+
+    .btn-logiN{
+
+        margin-left: 22%;
+    }
+
+    .or-optioN{
+
+        margin-left: 18%;
+    }
+
+    
+    .btn-googlE{
+        margin-left: 36%;
+
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .welcome-phrasE{
+
+        font-size: 32px;
+    
+    }
+    
+    .intrO{
+        font-size: 16px;
+    }
+
+
+    .email-autH{
+
+        margin-left: 7%;
+    
+        padding: 25px 13px;
+        
+        width: 300px;
+
+        height: 55px;
+    }
+
+    .pass-autH{
+        margin-left: 7%;
+    
+        padding: 25px 13px;
+        
+        width: 300px;
+
+        height: 55px;
+
+        margin-top: 5%;
+    }
+
+    .btn-logiN{
+
+        margin-left: 7%;
+
+        width: 300px;
+
+        height: 55px;
+        
+        margin-top: 5%;
+    }
+
+    .or-optioN{
+
+        margin-left: 18%;
+    }
+
+    
+    .btn-googlE{
+        margin: 6% 20%;
+
+        width: 55%;
+    }
+}
+
