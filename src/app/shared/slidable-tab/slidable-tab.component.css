@@ -1,8 +1,7 @@
 .uc-tabS ul{
     list-style-type: none;
     display: flex;
-    gap: 50px;
-    padding-left: 35%;
+    gap: 20px;
     width: 100%;
     margin: 0;
     border-bottom: 1px solid #ccc;
@@ -27,4 +26,28 @@
     color: #000;
     border-bottom: 4px solid #FF2626;
     text-decoration: none;
+  }
+
+  @media only screen and (max-width: 850px) {
+    .uc-tabS ul{
+      font-size: 14px;
+      gap: 20px;
+      width: 85%;
+    }
+    .uc-tabS ul li a{
+      padding: 10px 2px;
+      min-width: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .uc-tabS ul{
+      font-size: 12px;
+      gap: 10px;
+      width: 50%;
+    }
+    .uc-tabS ul li a{
+      padding: 10px 2px;
+      min-width: 50px;
+    }
   }
